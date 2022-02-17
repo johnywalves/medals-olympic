@@ -1,7 +1,9 @@
 import React from 'react'
 
+import { Wrapper } from './styles'
+
 const Main = ({ children }) => {
-    return <main>{children}</main>
+    return <Wrapper>{children}</Wrapper>
 }
 
 export default Main

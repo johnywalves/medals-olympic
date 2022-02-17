@@ -11,9 +11,12 @@ import Main from './components/Main'
 import Medals from './routes/Medals'
 import Teams from './routes/Teams'
 
+import GlobalStyle from './globalStyles';
+
 function App() {
   return (
     <Router>
+      <GlobalStyle/>
       <Header/>
       <Main>
         <Routes>
